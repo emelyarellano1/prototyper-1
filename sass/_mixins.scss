@@ -1,0 +1,39 @@
+/* navbar  */
+@mixin margen-menu{
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 18px;
+	font-family: 'Sansita', sans-serif;
+	color: $color-menu-texto;
+}
+
+
+/* mixin seccio  1 */
+@mixin texto-natur {
+	color: $color-titulos;
+	font-family: 'Sansita', sans-serif;
+	margin-top: 300px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+@mixin texto-ipsum {
+	color: $color-titulos;
+	font-family: 'Sansita', sans-serif;
+	margin-bottom: 300px;
+	font-size: 30px;
+}
+@mixin barra {
+	color: $color-titulos;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/* mixin seccio  3 */
+/* mixin footer */
+@mixin foottercolortext {
+	color: $colo-text-footer;
+	font-size: 16px;
+	font-family: 'Sansita', sans-serif;
+	padding: 0px 10px 0px 10px;
+
+}

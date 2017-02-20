@@ -1,0 +1,77 @@
+/* mis estilospersonales */
+/* NAVBAR MENU */
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color:  #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #ffffff
+}
+.navbar-default .navbar-brand {
+	font-size: 22px; 
+	font-family: 'Sansita', sans-serif;
+	color: $color-menu-texto;
+}
+#bs-example-navbar-collapse-1{
+	a{
+		@include margen-menu;
+	}
+}
+
+/* Seccion 1*/
+#back-jugo {
+	background-image: url(../img/fondo-nature.jpg);
+
+	h1 {
+		@include texto-natur;
+	}
+	hr {
+		@include barra;
+	}
+	h2{
+		@include texto-ipsum;
+	}
+
+}
+/* Seccion 2*/
+/* Seccion 3*/
+.gallery-1 {
+	margin-top: 100px;
+}
+.gallery-2 {
+	margin-bottom: 100px;
+}
+/* footer 4*/
+#footer-text {
+	li{
+		display: inline-block;
+		a{
+			@include foottercolortext;
+		}
+	}
+}
+.icons {
+	font-size: 25px;
+	padding-left: 130px;
+	
+}
+.fa-facebook-official{
+	color: $color-facebook;
+}
+.fa-twitter-square{
+	color: $color-twitter;
+}
+.fa-instagram{
+color:	$color-instagram;
+}
+.fondo-footer {
+	background-color: $color-back-footer;
+}
+.margen-footer{
+	margin: 30px 0px 30px 0px;	
+}
