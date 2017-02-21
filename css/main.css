@@ -5902,46 +5902,59 @@ button.close {
 /* mis estilospersonales */
 /* NAVBAR MENU */
 .navbar {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 0px; }
 
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff; }
+  background-color: #0b0c13;
+  border-color: #0b0c13; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #ffffff; }
+  background-color: #0b0c13; }
 
 .navbar-default .navbar-brand {
   font-size: 22px;
   font-family: 'Sansita', sans-serif;
-  color: #2000b6; }
+  color: #87da66; }
 
 #bs-example-navbar-collapse-1 a {
   margin-left: 80px;
   margin-right: 80px;
   font-size: 18px;
   font-family: 'Sansita', sans-serif;
-  color: #2000b6; }
+  color: #87da66; }
+
+.margen-footer {
+  margin: 30px 0px 30px 0px; }
+
+.fa-search {
+  color: #87da66; }
+
+.form-control {
+  border-radius: 35px; }
 
 /* Seccion 1*/
-#back-jugo {
+.back-jugo {
   background-image: url(../img/fondo-nature.jpg); }
-  #back-jugo h1 {
+  .back-jugo h1 {
     color: #fff;
     font-family: 'Sansita', sans-serif;
     margin-top: 300px;
     margin-bottom: 30px;
-    font-size: 30px; }
-  #back-jugo hr {
+    font-size: 40px; }
+  .back-jugo hr {
     color: #fff;
     margin-top: 30px;
     margin-bottom: 30px; }
-  #back-jugo h2 {
+  .back-jugo h2 {
     color: #fff;
     font-family: 'Sansita', sans-serif;
     margin-bottom: 300px;
-    font-size: 30px; }
+    font-size: 40px; }
+
+.nature-titl {
+  font-size: 30px; }
 
 /* Seccion 2*/
 /* Seccion 3*/
@@ -5955,7 +5968,7 @@ button.close {
 #footer-text li {
   display: inline-block; }
   #footer-text li a {
-    color: #2000b6;
+    color: #87da66;
     font-size: 16px;
     font-family: 'Sansita', sans-serif;
     padding: 0px 10px 0px 10px; }
@@ -5974,9 +5987,6 @@ button.close {
   color: #1dcaff; }
 
 .fondo-footer {
-  background-color: #5f657d; }
-
-.margen-footer {
-  margin: 30px 0px 30px 0px; }
+  background-color: #0b0c13; }
 
 /*# sourceMappingURL=main.css.map */
