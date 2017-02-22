@@ -9,12 +9,11 @@
 
 
 /* mixin seccio  1 */
-@mixin texto-natur {
+@mixin texto-naturaleza {
 	color: $color-titulos;
 	font-family: 'Sansita', sans-serif;
-	margin-top: 300px;
-	margin-bottom: 30px;
 	font-size: $font-size-h1;
+	margin-top: 300px;
 }
 
 @mixin texto-ipsum {
@@ -28,12 +27,22 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+/* mixin seccio  2 */
+
+@mixin gallery-seccion {
+	font-family: 'Sansita', sans-serif;
+	font-size: 16px;
+	color: $color-menu-texto;
+} 
 /* mixin seccio  3 */
+@mixin  tercera {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
 /* mixin footer */
 @mixin foottercolortext {
 	color: $colo-text-footer;
 	font-size: 16px;
 	font-family: 'Sansita', sans-serif;
-	padding: 0px 10px 0px 10px;
-
+	margin: 0px 10px 0px 10px;
 }

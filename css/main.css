@@ -5897,6 +5897,7 @@ button.close {
 /* ejemplo */
 /* navbar  */
 /* mixin seccio  1 */
+/* mixin seccio  2 */
 /* mixin seccio  3 */
 /* mixin footer */
 /* mis estilospersonales */
@@ -5940,9 +5941,8 @@ button.close {
   .back-jugo h1 {
     color: #fff;
     font-family: 'Sansita', sans-serif;
-    margin-top: 300px;
-    margin-bottom: 30px;
-    font-size: 40px; }
+    font-size: 40px;
+    margin-top: 300px; }
   .back-jugo hr {
     color: #fff;
     margin-top: 30px;
@@ -5958,20 +5958,37 @@ button.close {
 
 /* Seccion 2*/
 /* Seccion 3*/
+.tercera-seccion {
+  background-color: #0b0c13;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .tercera-seccion div p {
+    font-family: 'Sansita', sans-serif;
+    font-size: 16px;
+    color: #87da66; }
+
+/* Seccion 4*/
+.gallery {
+  background-color: #0b0c13; }
+  .gallery p {
+    font-family: 'Sansita', sans-serif;
+    font-size: 16px;
+    color: #87da66; }
+
 .gallery-1 {
   margin-top: 100px; }
 
 .gallery-2 {
   margin-bottom: 100px; }
 
-/* footer 4*/
+/* footer */
 #footer-text li {
   display: inline-block; }
   #footer-text li a {
     color: #87da66;
     font-size: 16px;
     font-family: 'Sansita', sans-serif;
-    padding: 0px 10px 0px 10px; }
+    margin: 0px 10px 0px 10px; }
 
 .icons {
   font-size: 25px;
@@ -5988,5 +6005,7 @@ button.close {
 
 .fondo-footer {
   background-color: #0b0c13; }
+
+/*MEDIA QUERY*/
 
 /*# sourceMappingURL=main.css.map */

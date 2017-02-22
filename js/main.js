@@ -37,14 +37,11 @@ $('#contact-menu').typewrite({
 $(document).ready(function () { 
   $('body').sectionScroll(); // Easy Peasy Lemon Squeezy 
   // iniciando circull scroll en la seccion about us
-  $('html').csInit({
-
-    // global settings
+  /*$('html').csInit({
     wheelDelay: 300,
     wheelDistance: 100,
-    wheelEase: 'easeOutQuad'
-    
-  });
+    wheelEase: 'easeOutQuad'  
+  });*/
 
   $('#about').csTween({
 
