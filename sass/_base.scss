@@ -1,5 +1,9 @@
 /* mis estilospersonales */
 /* NAVBAR MENU */
+body {
+    font-family: 'Sansita', sans-serif;
+    color: $color-menu-texto;
+}
 .navbar{
 	margin-bottom: 0px;
 	border-radius:0px;
@@ -51,7 +55,6 @@
 .nature-titl{
 	font-size: 30px;
 }
-/* Seccion 2*/
 
 /* Seccion 3*/
 
@@ -59,16 +62,17 @@
 	background-color: $color-fondo;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	div{
-
-		p{
-			@include gallery-seccion;
-		}
-	}
+}
+.texto-seccion-2{
+	@include gallery-seccion;
 }
 
-
 /* Seccion 4*/
+.tex-gallery{
+	color: $color-menu-texto;
+	margin-bottom: 35px;
+	font-family: 'Sansita', sans-serif;
+}
 .gallery {
 	background-color: $color-fondo;
 	p {
@@ -81,6 +85,7 @@
 .gallery-2 {
 	margin-bottom: 100px;
 }
+
 /* footer */
 #footer-text {
 	li{
@@ -89,6 +94,10 @@
 			@include foottercolortext;
 		}
 	}
+}
+.margin{
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 .icons {
 	font-size: 25px;
@@ -110,12 +119,6 @@ color:	$color-instagram;
 
 
 
-
-
-
-
-
-/*MEDIA QUERY*/
 
 
 

@@ -5902,6 +5902,10 @@ button.close {
 /* mixin footer */
 /* mis estilospersonales */
 /* NAVBAR MENU */
+body {
+  font-family: 'Sansita', sans-serif;
+  color: #87da66; }
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px; }
@@ -5920,8 +5924,8 @@ button.close {
   color: #87da66; }
 
 #bs-example-navbar-collapse-1 a {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 18px;
   font-family: 'Sansita', sans-serif;
   color: #87da66; }
@@ -5956,18 +5960,23 @@ button.close {
 .nature-titl {
   font-size: 30px; }
 
-/* Seccion 2*/
 /* Seccion 3*/
 .tercera-seccion {
   background-color: #0b0c13;
   padding-top: 100px;
   padding-bottom: 100px; }
-  .tercera-seccion div p {
-    font-family: 'Sansita', sans-serif;
-    font-size: 16px;
-    color: #87da66; }
+
+.texto-seccion-2 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 16px;
+  color: #87da66; }
 
 /* Seccion 4*/
+.tex-gallery {
+  color: #87da66;
+  margin-bottom: 35px;
+  font-family: 'Sansita', sans-serif; }
+
 .gallery {
   background-color: #0b0c13; }
   .gallery p {
@@ -5990,6 +5999,10 @@ button.close {
     font-family: 'Sansita', sans-serif;
     margin: 0px 10px 0px 10px; }
 
+.margin {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
 .icons {
   font-size: 25px;
   padding-left: 130px; }
@@ -6005,7 +6018,5 @@ button.close {
 
 .fondo-footer {
   background-color: #0b0c13; }
-
-/*MEDIA QUERY*/
 
 /*# sourceMappingURL=main.css.map */
