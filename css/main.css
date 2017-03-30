@@ -5824,7 +5824,7 @@ button.close {
 .section-bullets li {
   display: block;
   text-align: right;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   line-height: 1;
   position: relative;
@@ -5857,12 +5857,12 @@ button.close {
   transition-duration: .2s; }
 
 .section-bullets li a {
-  color: #000;
+  color: #000B25;
   overflow: hidden;
   position: relative;
   display: inline-block;
   transition-duration: .3s;
-  opacity: 0.5;
+  opacity: 0.9;
   margin-left: 5px;
   padding: 5px 20px 5px 10px;
   text-decoration: none;
@@ -5904,37 +5904,40 @@ button.close {
 /* NAVBAR MENU */
 body {
   font-family: 'Sansita', sans-serif;
-  color: #87da66; }
+  color: #071900; }
+
+section {
+  background-color: #f9f9f9; }
 
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px; }
 
 .navbar-default {
-  background-color: #0b0c13;
-  border-color: #0b0c13; }
+  background-color: #f9f9f9;
+  border-color: none; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #0b0c13; }
+  background-color: #f9f9f9; }
 
 .navbar-default .navbar-brand {
   font-size: 22px;
   font-family: 'Sansita', sans-serif;
-  color: #87da66; }
+  color: #071900; }
 
 #bs-example-navbar-collapse-1 a {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 18px;
   font-family: 'Sansita', sans-serif;
-  color: #87da66; }
+  color: #071900; }
 
 .margen-footer {
   margin: 30px 0px 30px 0px; }
 
 .fa-search {
-  color: #87da66; }
+  color: #071900; }
 
 .form-control {
   border-radius: 35px; }
@@ -5961,28 +5964,28 @@ body {
   font-size: 30px; }
 
 /* Seccion 3*/
+.about-section {
+  padding-bottom: 50px; }
+
 .tercera-seccion {
-  background-color: #0b0c13;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px; }
 
 .texto-seccion-2 {
   font-family: 'Sansita', sans-serif;
   font-size: 16px;
-  color: #87da66; }
+  color: #071900; }
 
 /* Seccion 4*/
 .tex-gallery {
-  color: #87da66;
+  color: #071900;
   margin-bottom: 35px;
   font-family: 'Sansita', sans-serif; }
 
-.gallery {
-  background-color: #0b0c13; }
-  .gallery p {
-    font-family: 'Sansita', sans-serif;
-    font-size: 16px;
-    color: #87da66; }
+.gallery p {
+  font-family: 'Sansita', sans-serif;
+  font-size: 16px;
+  color: #071900; }
 
 .gallery-1 {
   margin-top: 100px; }
@@ -5994,7 +5997,7 @@ body {
 #footer-text li {
   display: inline-block; }
   #footer-text li a {
-    color: #87da66;
+    color: #071900;
     font-size: 16px;
     font-family: 'Sansita', sans-serif;
     margin: 0px 10px 0px 10px; }
@@ -6017,6 +6020,6 @@ body {
   color: #1dcaff; }
 
 .fondo-footer {
-  background-color: #0b0c13; }
+  background-color: #CCFFD3; }
 
 /*# sourceMappingURL=main.css.map */
